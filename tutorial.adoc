@@ -1,0 +1,75 @@
+= Einführung in das Programmieren
+== Getting wet feet w/ Pixelflut & Haskell
+
+== Einführung
+
+.Was ist „Programmieren“?
+
+* Dem Computer sagen, was er machen soll
+* Computerprogramme erstellen
+* Mathematik, die man sehen kann!
+
+.Was ist „Hacken“?
+
+* Systeme so umgestalten, dass man sie anders verwenden kann, als es ursprünglich gedacht war
+** Sphincter
+** Audio over netcat
+* Viele Systeme sind heute Computer -> zum Hacken muss man meistens programmieren können
+
+.Was ist „Cracken“?
+
+* Systeme anderer Menschen aufbrechen, in der Absicht, dadurch einen Gewinn zu erzielen
+* illegal
+
+.Wie „programmiert“ man?
+
+* Viele verschiedene Umgebungen (Diagramm zeichnen)
+** CPU Opcodes -> Assembler -> C/Fortran/Forth
+** Java/C++/Go
+** Shell
+** Python/Ruby/Perl
+** Javascript
+** Lisp/Erlang/Haskell
+** Excel
+* Meistens Texteditor
+* „Compiler“, der den Text in die unteren Schichten umwandelt
+
+
+== Erste Schritte
+
+* Shell aufmachen
+* cd in Ordner
+* ghci
+
+----
+2+2
+"Hello" ++ " " ++ "world"
+let swedish = intersperse 'f'
+swedish "hello"
+let very f x = f (f (f x))
+very swedish "hello"
+let y = 2*x + 1
+let fünf = 5
+y fünf
+----
+
+.Funktionen
+* In -> BOX -> Out
+* Typen durchsprechen für (f(x), *, +, swedish, very)
+* ℕ → ℝ
+* `:type`, `:t`
+
+
+== Pixelflut erkunden
+
+* Pixelflut erklären
+** Netzwerkaufbau
+** Client - Server
+** manuell Kommandos senden (mit telnet rumspielen lassen)
+* Bibliothek erklären
+** importieren
+** Funktionen anschauen (Typen)
+** Pixelflut Datentyp erklären
+* Einfaches Programm mit `main`, `withConnection` und `px` schreiben und kompilieren
+* `row` und `rect` implementieren
+** `for_` importieren & erklären
