@@ -1,5 +1,10 @@
 = Introduction to programming
 
-Runs on a http://nixos.org/nixos/download.html#virtualbox-appliances[NixOS Virtualbox appliance].
+Runs on a http://nixos.org/nixos/download.html#virtualbox-appliances[NixOS Virtualbox appliance]. Alternatively, copy the necessary packages in a working NixOS (at that point you should know what you are doing).
 
-To init Emacs, start it and run `M-x package-list-packages` once, then restart.
+. Clone this repository to your homedir.
+. Install the programs in the `configuration.nix`.
+. Run init.sh (untested!) (or manually execute the steps in it).
+. To init Emacs, start it and run `M-x package-list-packages` once, then restart.
+
+`tutorial.adoc` contains my notes for the introductory course, German only and probably of no use to anyone else. :)
