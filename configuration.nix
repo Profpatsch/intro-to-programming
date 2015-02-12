@@ -5,7 +5,7 @@
   
   environment.systemPackages = with pkgs;
     let
-      haskPkgs = with haskellPackages [
+      haskPkgs = with haskellPackages; [
         ghc
         mtl
         network
